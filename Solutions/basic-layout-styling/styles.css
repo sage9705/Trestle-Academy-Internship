@@ -1,0 +1,78 @@
+/* Global Styles */
+body, html {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set minimum height to the viewport height */
+}
+
+.main-header,
+.content-container,
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: aquamarine;
+}
+
+/* Header Styles */
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Content Styles */
+.skills-section {
+  padding: 1rem;
+}
+
+.skill-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.skill-row img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0062cc;
+}
+
+/* Content Container */
+.content-container {
+  flex-grow: 1; /* Take up any remaining space */
+}
+
+/* Footer */
+.main-footer {
+  background-color: rgb(197, 197, 236);
+  margin-top: 0;
+  margin-bottom: 0; /* Remove margin-bottom */
+}
