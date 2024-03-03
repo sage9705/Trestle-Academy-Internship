@@ -1,0 +1,211 @@
+body, html {
+    min-height: 100%;
+}
+@media (max-width: 375px) {
+    .prep ul {
+        position:relative;
+        right: 80px;
+    }
+    .prep h3 {
+        position: relative;
+        right: 50px;
+    }
+    .nutrition table {
+        position: relative;
+        right: 25px;
+    }
+    .nutrition table td {
+        position: relative;
+        padding: 10px 0px 10px 15px;
+    }
+}
+@media (max-width: 1440px) {
+    
+body {
+    background-color: hsl(330, 100%, 95%);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: hsl(330, 100%, 95%);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.main-page {
+    background-color: hsl(0, 0%, 100%);  
+    border-radius: 15px;
+    width: 50%;
+    margin: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}   
+
+.heading {
+    margin-top: 25px;
+}
+
+.heading h1 {
+    font-family: "Young Serif";
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+.heading p {
+    margin-top: 10px;
+    font-family: "Outfit";
+    color: hsl(30, 5%, 57%);
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.prep {
+    padding: 50px;
+    background-color: hsl(330, 100%, 98%);
+    border: 15px;
+}
+
+.prep h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit";
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.prep ul {
+    padding-right: 100px;
+    list-style-position: inside;
+    margin-top: 10px;
+    color: hsl(30, 2%, 54%);
+    font-family: "Outfit";
+}
+
+.prep ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    margin-top: 10px;
+}
+ b {
+    color: hsl(0, 1%, 27%);
+ }
+
+ .ingredients h2 {
+    color: hsl(32, 33%, 36%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Young Serif";
+    font-weight: 400;
+ }
+
+ .ingredients ul {
+    list-style-position: inside;
+    padding-left: 10px;
+    color: hsl(30, 2%, 54%);
+    margin-bottom: 20px;
+    font-family: "Outfit";
+ }
+
+ .ingredients ul li::marker {
+    color: hsl(32, 33%, 36%);
+ }
+
+ .ingredients {
+    border-bottom: .2px solid hsl(30, 18%, 87%);
+ }
+
+ .instructions {
+    margin-top: 20px;
+    border-bottom: .2px solid hsl(30, 18%, 87%);
+ }
+
+ .instructions h2 {
+    color: hsl(32, 34%, 40%);
+    font-family: "Young Serif";
+    font-weight: 400;
+ }
+
+ .instructions ol {
+    list-style-type: inside;
+    padding-left: 35px;
+    color: hsl(30, 2%, 54%);
+    font-family: "Outfit";
+    margin-bottom: 20px;
+ }
+
+ .instructions ol li::marker {
+    word-spacing: 10px;
+    color:  hsl(32, 34%, 40%);
+ }
+
+ .nutrition {
+    margin-top: 25px;
+    font-family: "Outfit";
+    font-weight: 300px;
+ }
+
+ .nutrition h2 {
+    color: hsl(32, 34%, 40%);
+    margin-bottom: 20px;
+    font-family: "Young Serif";
+    font-weight: 600px;
+ }
+  .nutrition p {
+    color: hsl(30, 2%, 54%);
+    font-weight: 300;
+    font-family: "Outfit";
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .nutrition table {
+    border-collapse: separate;
+    margin-left: 25px;
+    width: 100%;
+  }
+  table tr > th {
+    color: hsl(30, 2%, 54%);
+  }
+
+  .nutrition td {
+    color: hsl(32, 34%, 40%);
+    padding: 10px 0px 10px 150px;
+  }
+
+  .nutrition tr th {
+    border-bottom: .2px solid hsl(30, 18%, 87%);
+  }
+
+  .nutrition tr:last-child th {
+    border-bottom: none;
+  }
+
+  .nutrition tr td {
+    border-bottom: .2px solid hsl(30, 18%, 87%);
+  }
+
+  .nutrition tr:last-child td {
+    border-bottom: none;
+  }
