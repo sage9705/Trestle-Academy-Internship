@@ -12,6 +12,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
+    font-size: 20px;
 }
 .container {
     width: 50%;
@@ -27,16 +28,18 @@ body {
 }
 #community-text {
     color: hsl(200, 6%, 39%);
-    font-size: 13px;
+    /* font-size: 13px; */
 }
 .community {
     padding: 30px 25px;
     border-radius: 10px;
     background-color: white;
 }
-.payment {
+.below {
+    margin-top: -15px;
+}
+.below .payment {
     background-color: hsl(179, 62%, 56%);
-    border-end-start-radius: 10px;
     padding: 30px 30px 0 30px;
 
 }
@@ -45,23 +48,21 @@ body {
     font-weight: 700;
 }
 #price {
-    font-size: 25px;
+    /* font-size: 25px; */
     font-weight: 700;
     color: white;
 }
 .payment p {
     color: hsl(217, 10%, 54%);
 }
-#pay-text {
+.payment #pay-text {
     color: white;
+    margin-bottom: 25px;
 }
-.btn {
-    margin-top: 20px;
+.below button {
     background-color: hsl(71, 73%, 54%);
     border-color: hsl(71, 73%, 54%);
     font-weight: 700;
-    width: 200px;
-    height: 45px;
     border: transparent;
 }
 .btn:hover {
@@ -72,8 +73,8 @@ body {
     background-color: hsl(179,  88%, 66%);
     padding-top: 25px; 
     color: white; 
-    border-end-end-radius: 10px;
     padding-bottom: 50px;
+    /* border-bottom-right-radius: 10px; */
 }
 .why-us h4 {
     font-weight: 700;
@@ -82,7 +83,8 @@ body {
 .why-us section {
    line-height:25%;
    font-size: 13px;
-   color: hsl(0, 0%, 91%);
+   color: hsl(255, 25%, 37%);
+   font-size: 20px;
 }
 img {
     position: absolute; 
@@ -91,24 +93,30 @@ img {
     opacity:20%;
 }
 @media (min-width: 375px) {
-    .payment {
+
+    .below .payment {
         padding: 30px 30px 10px 30px;
         border-radius: 0px;
     }
     #pay-text {
         margin-bottom: -20px;
     }
-    .btn {
+    .below .btn {
         width: 125px;
-        height: 50px;
+        height: 45px;
+        position: sticky;
+        margin-top: 5px;
     }
-    .why-us {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+    .below .why-us {
+        /* border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px; */
         padding-left: 25px;
     }
+    .below .why-us section {
+        line-height: 1;
+    }
 }
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
     #pay-text {
         margin-bottom: 20px;
     }
@@ -117,12 +125,11 @@ img {
         left: 50px;
         width: 200px;
     }
-    .payment {
+    .below .payment {
         border-bottom-left-radius: 10px;
     }
-    .why-us {
-        border-radius: 0;
-        border-bottom-right-radius: 10px;
+    .below .why-us {
+        border-bottom-right-radius: 10px;  
         padding-left: 50px;
     }
-}
+} */
